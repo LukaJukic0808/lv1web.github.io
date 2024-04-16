@@ -446,14 +446,8 @@ hr{
     gap: 1vw;
 }
 
-@media only screen and (min-width: 1224px) {
-    .coloredSpan {
-        color:#5E3BEE;
-    }
-}
 
-
-@media only screen and (max-width: 1223px) {
+@media only screen and (max-width: 1310px) {
 
     .helloPage {
         display:flex;
@@ -479,6 +473,11 @@ hr{
 
 }
 
+@media only screen and (min-width: 1224px) {
+    .coloredSpan {
+        color:#5E3BEE;
+    }
+}
 
 @media only screen and (max-width: 1023px) {
 
