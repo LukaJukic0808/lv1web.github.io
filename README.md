@@ -1,6 +1,6 @@
 # LV 1 zadatak - Osobna stranica
 
-### LINK: 
+### LINK: https://lukajukic0808.github.io/lv1web.github.io/
 
 <hr />
 
