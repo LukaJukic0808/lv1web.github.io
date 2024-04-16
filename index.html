@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <header id="home">
+        <nav>
+            <img src="images/Logo.png" srcset="images/Logo.png 374w, images/Navbar/Logo.png 280w" sizes="(max-width: 768px) 35vw, 10vw" id="logo" alt="Logo" loading="lazy">
+            <div class = "navCenter">
+                <a href="#home" class="blueLink">Home</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#aboutme">About me</a>
+                <a href="#testimonials">Testimonials</a>
+            </div>
+            <a href="#contactme" class="blueLink" id="contactButton" aria-disabled="false" aria-label="Contact me">Contact Me</a>
+        </nav>
+    </header>
+    <main>
+        <div class = "helloPage">
+            <div class = "contentLeft content">
+                <section>
+                    <p style = "font-weight: 600;">Hey, I am John</p>
+                    <p class = "bigText">I create <span style="color:#5E3BEE">product design</span> and brand experience</p>
+                    <p style = "font-size:1.5rem;">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisee varius enim in eros elementum tristique.
+                    </p>
+                </section>
+                <a href="#contactme" class="getInTouchLink" aria-disabled="false" aria-label="Contact me">Get in touch</a>
+            </div>
+            <img src="images/MyPicture.png" srcset="images/MyPicture.png 1420w, images/MyPicture-resized.png 700w" sizes="(max-width: 1223px) 65vw, 50vw" class= "content" alt="Picture of me" loading="lazy">
+        </div>
+        <div class = mySkillsPage>
+            <section>
+                <p style="font-weight:600; font-size:1.5rem;" class="skillsHeader">My skills</p>
+                <p style="font-size:4rem; font-weight:700; margin-top:1%;" class="skillsHeader">My Expertise</p>
+                <div class="cards">
+                    <div class="card">
+                        <img src="images/product-chain 1.png" alt="Strategy and Direction image" loading="lazy">
+                        <article>
+                            <p class="cardHeader" aria-describedby="strategyDirection">Strategy & Direction</p>
+                            <p id="strategyDirection">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                        </article>
+                    </div>
+                    <div class="card">
+                        <img src="images/tag 1.png" alt="Branding and Logo image" loading="lazy">
+                        <article>
+                            <p class="cardHeader" aria-describedby="brandingLogo">Branding & Logo</p>
+                            <p id="brandingLogo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                        </article>
+                    </div>
+                    <div class="card">
+                        <img src="images/feather-pen 1.png" alt="User interface and user experience image" loading="lazy">
+                        <article>
+                            <p class="cardHeader" aria-describedby="UIUXDesign">UI & UX Design</p>
+                            <p id="UIUXDesign">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                        </article>
+                    </div>
+                    <div class="card">
+                        <img src="images/code.png" alt="Webflow development image" loading="lazy">
+                        <article>
+                            <p class="cardHeader" aria-describedby="webflowDevelopoment">Webflow Development</p>
+                            <p id="webflowDevelopoment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                        </article>
+                    </div>
+                </div>
+            </section> 
+        </div>
+        <div class = "aboutMePage" id="aboutme">
+            <img src="images/About-Me.png" srcset="images/About-Me.png 1627w, images/About-Me-1.png 700w" sizes="(max-width: 1023px) 65vw, 50vw" class= "content" alt="Picture of me" loading="lazy">
+            <div class = "contentRight content">
+                <section>
+                    <p style = "font-weight: 600;">About</p>
+                    <p class = "bigText">About Me</p>
+                    <p style = "font-size:1.5rem;">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Fusce varius faucibus massa sollicitudin amet augue. 
+                        Nibh metus a semper purus mauris duis. 
+                        Lorem eu neque, tristique quis duis. Nibh scelerisque ac adipiscing velit non nulla in amet pellentesque.
+                    </p>
+                    <p style = "font-size:1.5rem;">
+                        Sit turpis pretium eget maecenas. 
+                        Vestibulum dolor mattis consectetur eget commodo vitae. 
+                        Amet pellentesque sit pulvinar lorem mi a, euismod risus r.
+                    </p>
+                </section>
+            </div>
+        </div>
+        <div class="myPortfolioPage" id="portfolio">
+            <section>
+                <div class = "portfolioHeader">
+                    <div class = "portfolioHeaderRight">
+                        <p style = "font-weight: 600;">Recent projects</p>
+                        <p class = "bigText">My Portfolio</p>
+                    </div>
+                    <div class="visitMyDribbleButton">
+                        <a href="https://www.dribble.com" aria-disabled="false" aria-label="Visit my dribble">
+                            <img src="images/Social icon.png" srcset="images/Social icon.png 65w, images/Blog/Social icon.png 13w" sizes="(max-width: 768px) 1vw, 5vw" alt="Dribble logo" loading="lazy">
+                            <p>Visit My Dribble</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="projects">
+                    <div class="project">
+                        <img src="images/Placeholder/Image.png" srcset="images/Placeholder/Image.png 1110w, images/Blog/Placeholder/Image.png 203w" sizes="(max-width: 768px) 55vw, 30vw" alt="Ahuse image" loading="lazy">
+                        <div>
+                            <article>
+                                <p class="projectTitle" aria-describedby="ahuse-description">Ahuse</p>
+                                <p id="ahuse-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                                <a href="https://www.dribble.com" class="projectLink">View In Dribble</a>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="images/Placeholder/Image-1.png" srcset="images/Placeholder/Image-1.png 1110w, images/Blog/Placeholder/Image-1.png 203w" sizes="(max-width: 768px) 55vw, 30vw" alt="App Dashboard image" loading="lazy">
+                        <div>
+                            <article>
+                                <p class="projectTitle" aria-describedby="appDashboard-description">App Dashboard</p>
+                                <p id="appDashboard-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                                <a href="https://www.dribble.com" class="projectLink">View In Dribble</a>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="images/Placeholder/Image-2.png" srcset="images/Placeholder/Image-2.png 1110w, images/Blog/Placeholder/Image-2.png 203w" sizes="(max-width: 768px) 55vw, 30vw" alt="Easy rent image" loading="lazy">
+                        <div>
+                            <article>
+                                <p class="projectTitle" aria-describedby="easyRent-description">Easy Rent</p>
+                                <p id="easyRent-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                                <a href="https://www.dribble.com" class="projectLink">View In Dribble</a>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class = "feedbackPage" id="testimonials">
+            <section>
+                <p style = "font-weight: 600;" class="feedbackHeader">Clients Feedback</p>
+                <p class = "bigText feedbackHeader">Customer testimonials</p>
+                <div class="reviews">
+                    <div class="review">
+                        <img src="images/Stars.png" alt="Rating - stars" loading="lazy">
+                        <article>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.
+                            </p>
+                            <div class="user">
+                                <img src="images/Avatar Image.png" alt="User profile image" loading="lazy">
+                                <div class="userDetails">
+                                    <p class="username">Dianne Russell</p>
+                                    <p>Starbucks</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="review">
+                        <img src="images/Stars.png" alt="Rating - stars" loading="lazy">
+                        <article>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.
+                            </p>
+                            <div class="user">
+                                <img src="images/Avatar Image-1.png" alt="User profile image" loading="lazy">
+                                <div class="userDetails">
+                                    <p class="username">Kristin Watson</p>
+                                    <p>Louis Vuitton</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="review">
+                        <img src="images/Stars.png" alt="Rating - stars" loading="lazy">
+                        <article>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.
+                            </p>
+                            <div class="user">
+                                <img src="images/Avatar Image-2.png" alt="User profile image" loading="lazy">
+                                <div class="userDetails">
+                                    <p class="username">Kathryn Murphy</p>
+                                    <p>McDonald's</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="formPage" id="contactme">
+            <section>
+                <p style = "font-weight: 600;" class="feedbackHeader">Get In Touch</p>
+                <p class = "bigText feedbackHeader">Contact me</p>
+                <p style = "font-size: 1.5rem;" class="feedbackHeader">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <form action="https://www.freepik.com/free-photos-vectors/thankyou">
+                    <div class = "inputs">
+                        <div class="multipleInputs">
+                            <div>
+                                <p id="first-name">First name</p>
+                                <input type="text" aria-labelledby="first-name">
+                            </div>
+                            <div>
+                                <p id="email">Email</p>
+                                <input type="text" aria-labelledby="email">
+                            </div>
+                        </div>
+                        <div class="multipleInputs">
+                            <div>
+                                <p id="last-name">Last name</p>
+                                <input type="text" aria-labelledby="last-name">
+                            </div>
+                            <div>
+                                <p id="phone-number">Phone number</p>
+                                <input type="text" aria-labelledby="phone-number">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="otherInputs">
+                        <p id="choose-topic">Choose a topic</p>
+                        <select name="topic" aria-labelledby="choose-topic">
+                            <option value="selectOne" aria-selected="true">Select one...</option>
+                            <option value="date">Date</option>
+                            <option value="help">Help</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="otherInputs">
+                        <p id="message">Message</p>
+                        <textarea placeholder="Type your message..." rows="8" aria-labelledby="message"></textarea>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox" aria-checked="false" aria-labelledby="accept-terms">
+                        <span id="accept-terms">I accept the terms</span>
+                    </div>
+                    <input type="Submit" class="submitButton" value="Submit" aria-disabled="false" aria-label="Submit form">
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <nav>
+            <div class="footerNavLinks">
+                <img src="images/Logo.png" srcset="images/Logo.png 374w, images/Navbar/Logo.png 280w" sizes="(max-width: 768px) 35vw, 10vw" id="logo" alt="Logo" loading="lazy">
+                <div class = "navCenter">
+                    <a href="#home">Home</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#aboutme">About me</a>
+                    <a href="#contactme">Contact</a>
+                    <a href="#testimonials">Testimonials</a>
+                </div>
+                <div class="socialNetworks">
+                    <a href="https://www.faceboook.com">
+                        <img src="images/Facebook.png" alt="Facebook logo" loading="lazy">
+                    </a>
+                    <a href="https://www.instagram.com">
+                        <img src="images/Instagram.png" alt="Instagram logo" loading="lazy">
+                    </a>
+                    <a href="https://www.twitter.com">
+                        <img src="images/Twitter.png" alt="Twitter logo" loading="lazy">
+                    </a>
+                    <a href="https://hr.linkedin.com">
+                        <img src="images/LinkedIn.png" alt="LinkedIn logo" loading="lazy">
+                    </a>
+                </div>
+            </div>
+            <hr>
+            <div class = footerNavInfo>
+                <p>Made by Luka</p>
+                <div>
+                    <a href="#home">Privacy Policy</a>
+                    <a href="#home">Terms of Service</a>
+                    <a href="#home">Cookies Settings</a>
+                </div>
+            </div>
+        </nav>
+    </footer>
+    
+</body>
+</html>

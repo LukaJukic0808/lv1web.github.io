@@ -1,0 +1,640 @@
+html {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:4%;
+    padding-right:4%;
+    padding-top:0.5%;
+    padding-bottom:0.5%;
+}
+
+#logo {
+    width:10%;
+}
+
+.navCenter {
+    display:flex;
+    justify-content: space-between;
+    gap: 3vw;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1C1E53;
+}
+
+.blueLink {
+    color: #5E3BEE;
+}
+
+#contactButton {
+    width:max-content;
+    display:flex;
+    border: 1.33px solid #5E3BEE;
+    border-radius: 5%;
+    align-items: center;
+    justify-content: center;
+    padding: 0.6%;
+    text-align: center;
+}
+
+.helloPage {
+    margin-top:1%;
+    margin-bottom:2%;
+    display:flex;
+    flex-direction: row;
+    padding: 4%;
+    background-color: #F5FCFF;
+}
+
+.contentLeft {
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content {
+    width:50%;
+}
+
+.bigText {
+    font-size:4.6rem; 
+    font-weight: 700;
+    margin-top:0.5%; 
+    margin-bottom:2%;
+}
+
+.getInTouchLink {
+    text-decoration: none;
+    background: #5E3BEE;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    color: white;
+    width: 12%;
+    border: 1.33px solid #5E3BEE;
+    border-radius: 5%;
+    padding: 1%;
+    align-items: center;
+    text-align: center;
+}
+
+.mySkillsPage {
+    margin-top:1%;
+    margin-bottom:2%;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    display:flex;
+    flex-direction: row;
+}
+
+.card {
+    display:flex;
+    flex-direction: column;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 5%;
+    background-color: #F5FCFF;
+    margin-right:2%;
+}
+
+.card img {
+    width: 20%;
+    background-color: white;
+    border-radius: 4%;
+    padding:4%;
+}
+
+.cardHeader {
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.card:hover {
+    border-bottom: 2.33px solid #5E3BEE;
+    border-radius:2%;
+}
+
+.aboutMePage {
+    margin-top:1%;
+    margin-bottom:2%;
+    display:flex;
+    flex-direction: row;
+    padding: 4%;
+}
+
+.contentRight {
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 4%;
+}
+
+.myPortfolioPage {
+    margin-top:1%;
+    margin-bottom:2%;
+    display:flex;
+    flex-direction: column;
+    padding: 4%;
+}
+
+.portfolioHeader {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.visitMyDribbleButton a{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #E62872;
+    padding:0.5%;
+    border-radius: 7%;
+    text-decoration: none;
+}
+
+.visitMyDribbleButton a p{
+    color:white;
+}
+
+.visitMyDribbleButton a img {
+    width: 20%;
+}
+
+.projects {
+    margin-top:2%;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project {
+    display:flex;
+    flex-direction:column;
+    margin-right: 1%;
+    box-shadow: 0px 0.32rem 1rem 0px #00000026;
+}
+
+.project img {
+    width: 100%;
+}
+
+.project div {
+    padding-left: 4%;
+    padding-bottom: 6%;
+    padding-right: 4%;
+}
+
+.projectTitle {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 1%;
+}
+
+.projectLink {
+    width: fit-content;
+    margin-top: 1%;
+    border-bottom: 1.33px solid #5E3BEE;
+    font-weight: 600;
+    font-size: 1.19rem;
+    padding-bottom: 1%;
+    text-decoration: none;
+    color: black;
+}
+
+.feedbackPage {
+    margin-top:1%;
+    margin-bottom:2%;
+    display:flex;
+    flex-direction: column;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    background-color: #F5FCFF;
+}
+
+.reviews {
+    margin-top:5%;
+    display:flex;
+    flex-direction: row;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    border: 1.33px solid #006B6A;
+    border-radius: 2%;
+    margin-right: 2%;
+}
+
+.review img{
+    width: 18%;
+    margin-bottom: 2%;
+}
+
+.review p {
+    margin-bottom: 7%;
+}
+
+.user {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.user img {
+    width : 14%;
+    margin-right: 2%;
+}
+
+.userDetails {
+    display:flex;
+    flex-direction: column;
+}
+
+.userDetails p {
+    padding-bottom: 3%;
+    margin: 0;
+}
+
+.username {
+    font-weight: 600;
+}
+
+.formPage section{
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 8%;
+    padding-bottom: 8%;    
+    display:flex;
+    flex-direction:column;
+    margin-top:1%;
+    margin-bottom:2%;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+.multipleInputs {
+    display:flex;
+    flex-direction: column;
+    width:50%;
+    padding: 2%;
+}
+
+.multipleInputs p, .multipleInputs input {
+    width : 100%;
+}
+
+.multipleInputs p, .otherInputs p {
+    margin-bottom: 1%;
+}
+
+input{
+    border: 1.33px solid #5E3BEE;
+    border-radius: 3%;
+    height: 45%;
+}
+
+.inputs {
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.submitButton {
+    margin-top: 3%;
+    border-radius: 4%;
+    background: #5E3BEE;
+    color: white;
+    padding: 1.2%;
+    width: 13%;
+}
+
+.otherInputs {
+    width:100%;
+    display:flex;
+    flex-direction: column;
+}
+
+.otherInputs p, .otherInputs input {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.otherInputs select {
+    border: 1.33px solid #5E3BEE;
+    border-radius: 2%;
+    margin-left: 2%;
+    margin-right: 1%;
+    padding-top:1%;
+    padding-bottom: 1%;
+    background: white;
+}
+
+textarea {
+    border: 1.33px solid #5E3BEE;
+    border-radius: 2%;
+    margin-left: 2%;
+    margin-right: 1%;
+    width: auto;
+    padding-top:1%;
+    padding-bottom: 1%;
+    background: white;
+}
+
+.check {
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 1%;
+}
+
+footer nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4%;
+    background-color: #F5FCFF;
+}
+
+.footerNavLinks {
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerNavLinks div a, .footerNavInfo div a {
+    text-decoration: none;
+    color:black;
+}
+
+.socialNetworks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1.5vw;
+    width:15%;
+    padding: 0;
+    margin: 0;
+}
+
+.socialNetworks a img {
+    width: 100%;
+    padding: 0;
+}
+
+.socialNetworks a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 10%;
+}
+
+hr{
+    margin-top: 6%;
+    margin-bottom: 1%;
+    width: 100%;
+}
+
+.footerNavInfo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerNavInfo div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1vw;
+}
+
+
+@media only screen and (max-width: 1223px) {
+
+    .helloPage {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 3vw;
+        align-items: center;
+    }
+
+    .contentLeft {
+        text-align: center;
+        margin-bottom: 3%;
+        align-items: center;
+    }
+
+    .helloPage .content {
+        width: 65%;
+    }
+
+    .getInTouchLink {
+        width: 25%;
+    }
+
+}
+
+
+@media only screen and (max-width: 1023px) {
+
+    html {
+        font-size:12.5px;
+    }
+
+    .helloPage, .aboutMePage {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 3vw;
+        align-items: center;
+    }
+
+    .contentLeft, .contentRight {
+        text-align: center;
+        margin-bottom: 3%;
+        align-items: center;
+    }
+
+    .aboutMePage .content {
+        width: 55%;
+        margin-bottom: 3%;
+    }
+
+    .getInTouchLink {
+        width: 25%;
+    }
+
+    .socialNetworks a {
+        width: 14%;
+    }
+
+}
+
+@media only screen and (max-width: 760px) {
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 3vw;
+        align-items: center;
+    }
+
+    .skillsHeader {
+        text-align: center;
+    }
+
+    .cards, .projects, .portfolioHeader, .reviews, .footerNavLinks, .footerNavInfo{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 3vw
+    }
+
+    .inputs {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .multipleInputs {
+        width: 100%;
+        padding: 0;
+    }
+
+    .otherInputs p, .otherInputs textarea, .otherInputs select {
+        margin-left: 0;
+        margin-right: 0;
+        padding:0;
+        width: 100%;
+    }
+
+    .check {
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .check input {
+        margin-left: 0;
+    }
+
+    .portfolioHeader p {
+        text-align: center;
+    }
+
+    .feedbackHeader {
+        text-align: center;
+    }
+
+    .visitMyDribbleButton {
+        width: 20%;
+        margin-bottom: 3%;
+    }
+
+    .visitMyDribbleButton a img {
+        width: 15%;
+    }
+
+    .visitMyDribbleButton a p {
+        font-size: 0.8rem;
+    }
+
+    .card, .project {
+        width: 55%;
+    }
+
+    .review {
+        width: 40%;
+    }
+
+    .user img {
+        width: 10%;
+    }
+
+    .card img {
+        width: 7%;
+    }
+
+    .project {
+        text-align: center;
+    }
+
+    #logo {
+        width:35%;
+    }
+
+    .submitButton {
+        width: 30%;
+    }
+
+    .footerNavInfo div {
+        align-items: center;
+        justify-content: center;
+        gap: 5vw
+    }
+
+    .footerNavInfo p {
+        text-align: center;
+    }
+
+    .socialNetworks {
+        justify-content: space-between;
+        gap: 2vw;
+        width:50%;
+        padding: 0;
+        margin: 0;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
